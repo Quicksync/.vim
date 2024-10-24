@@ -65,6 +65,9 @@ vnoremap <Left> <Nop>
 vnoremap <Right> <Nop>
 vnoremap <Up> <Nop>
 
+" Move cursor and center screen
+nnoremap k kzz
+nnoremap j jzz
 " Add shebang in new files
 autocmd BufNewFile * if !empty(&filetype) | execute 'silent! 1s/.*/#!\/bin\/bash' . '\r\r'| :startinsert | endif
 
