@@ -70,7 +70,7 @@ nnoremap k kzz
 nnoremap j jzz
 
 " Add shebang in new files
-#autocmd BufNewFile * if !empty(&filetype) | execute 'silent! 1s/.*/#!\/bin\/bash' . '\r\r'| :startinsert | endif
+"autocmd BufNewFile * if !empty(&filetype) | execute 'silent! 1s/.*/#!\/bin\/bash' . '\r\r'| :startinsert | endif
 
 " Run open script by pressinf F9
 nnoremap <F9> :!%:p<Enter>
