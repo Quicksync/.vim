@@ -77,3 +77,6 @@ nnoremap <F9> :!%:p<Enter>
 
 " Prevent write to ~/.vim/.netrwhist file. Don`t used it
 let g:netrw_dirhistmax=0
+
+" Enable mouse scrolling
+set mouse=a
