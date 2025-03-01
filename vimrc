@@ -36,10 +36,10 @@ cnoremap <C-k> <Up>
 cnoremap <C-l> <Right>
 
 " disable arrow keys
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
+"noremap <Up> <Nop>
+"noremap <Down> <Nop>
+"noremap <Left> <Nop>
+"noremap <Right> <Nop>
 
 " Remove newbie crutches in Command Mode
 cnoremap <Down> <Nop>
